@@ -6,15 +6,12 @@
 
 img {vertical-align: bottom;}
 span {font-family: Arial, serif}
-h2 {
-    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
-    color: #1b6bc7;
-}
+h2 {color: #1b6bc7;}
 a:hover{background-color: lightslategray}
 
 #navigate{
     width: 100%;
-    margin-top: 20px;
+    position: fixed;
     float: left;
     display: inline;
 }
@@ -36,7 +33,6 @@ a:hover{background-color: lightslategray}
 
 
 #logo2{
-    position: relative;
     width: 850px; height: 250px;
 }
 #tutor{
@@ -50,16 +46,17 @@ a:hover{background-color: lightslategray}
 
 
 #content{
-    width: 100%; height: 420px;
+    width: 100%; height: 520px;
     margin-top: 40px;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
 }
 #text_left{
-    width: 50%; height: 400px;
+    width: 50%; height: 500px;
     border-right: dotted cornflowerblue 2px;
     float: left;
 }
 #text_right{
-    width: 49%; height: 400px;
+    width: 49%; height: 500px;
     float: right;
 }
 .subtitle{
@@ -72,8 +69,17 @@ a:hover{background-color: lightslategray}
     padding-top: 30px;
 }
 .list_text{
-    width: 357px;
+    width: 357px; height: 20%;
     padding-top: 30px;
+    text-align: left;
+}
+.span_title{
+    color: #1b6bc7;
+    font-size: 150%;
+}
+.span_normal{
+    word-wrap:break-word;
+    line-height: 1.5em;
 }
 
 
