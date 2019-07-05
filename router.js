@@ -15,4 +15,4 @@ function router() {
     });
 }
 
-router()
+router();
