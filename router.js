@@ -10,8 +10,8 @@ function router() {
         // res.send('aaa')
     });
 
-    app.listen(8000, function () {
-        console.log('Server created with port: 8000\n');
+    app.listen(80, function () {
+        console.log('Server created with port: 80\n');
     });
 }
 
